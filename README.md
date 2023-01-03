@@ -1,9 +1,6 @@
 # dotnetsdk
 
-[![Build](https://github.com/screenshotone/dotnetsdk/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/screenshotone/dotnetsdk/actions/workflows/build.yml)
-
-//add nuget build status badge
-//add tests badge
+[![CI](https://github.com/theorigin/screenshotone-dotnet-sdk/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/theorigin/screenshotone-dotnet-sdk/actions/workflows/CI.yml/badge.svg?branch=main)
 
 An official [Screenshot API](https://screenshotone.com/) client for .NET. 
 
@@ -52,9 +49,16 @@ var bytes = await client.Take(options);
 File.WriteAllBytes(@"c:\temp\example.png", bytes);	
 ```
 
+## Building 
+
+To build, execute:
+```shell
+dotnet build
+```
+
 ## Tests 
 
-To run tests, just execute: 
+To run tests, execute: 
 ```shell
 dotnet test
 ```
