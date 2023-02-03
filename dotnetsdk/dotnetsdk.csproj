@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <Nullable>enable</Nullable>
-    <Title>dotnetsdk</Title>
+    <Title>ScreenshotOne dotnetsdk</Title>
     <Authors>ScreenshotOne</Authors>
     <Company>ScreenshotOne</Company>
     <Copyright>ScreenshotOne</Copyright>
