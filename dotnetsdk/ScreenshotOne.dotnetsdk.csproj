@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<Nullable>enable</Nullable>
+		<Title>ScreenshotOne dotnetsdk</Title>
+		<Authors>ScreenshotOne</Authors>
+		<Company>ScreenshotOne</Company>
+		<Copyright>ScreenshotOne</Copyright>
+		<RepositoryUrl>https://github.com/screenshotone/dotnetsdk</RepositoryUrl>
+		<PackageTags>screenshot; api; capture; sdk; screenshotone; </PackageTags>
+		<Description>A dotnet SDK for the ScreenshotOne API</Description>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Text.Encodings.Web" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+	  <None Include="README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
+
+</Project>

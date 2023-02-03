@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnetsdk-tests", "dotnetsdk-tests\dotnetsdk-tests.csproj", "{EC648962-7FA1-42BC-9DA8-5BE995C991EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScreenshotOne.dotnetsdk-tests", "dotnetsdk-tests\ScreenshotOne.dotnetsdk-tests.csproj", "{EC648962-7FA1-42BC-9DA8-5BE995C991EA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnetsdk", "dotnetsdk\dotnetsdk.csproj", "{FF57893C-58C8-4931-AF8D-FDAC0996536A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScreenshotOne.dotnetsdk", "dotnetsdk\ScreenshotOne.dotnetsdk.csproj", "{FF57893C-58C8-4931-AF8D-FDAC0996536A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

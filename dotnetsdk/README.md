@@ -1,6 +1,4 @@
-# ScreenShotOne dotnetsdk
-
-[![CI](https://github.com/theorigin/screenshotone-dotnet-sdk/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/theorigin/screenshotone-dotnet-sdk/actions/workflows/CI.yml/badge.svg?branch=main)
+﻿# About
 
 An official [Screenshot API](https://screenshotone.com/) client for .NET. 
 
@@ -48,21 +46,3 @@ var bytes = await client.Take(options);
 
 File.WriteAllBytes(@"c:\temp\example.png", bytes);	
 ```
-
-## Building 
-
-To build, execute:
-```shell
-dotnet build
-```
-
-## Tests 
-
-To run tests, execute: 
-```shell
-dotnet test
-```
-
-## License 
-
-`screenshotone/dotnetsdk` is released under [the MIT license](LICENSE).
