@@ -3,15 +3,18 @@
 	<PropertyGroup>
 		<TargetFramework>netstandard2.1</TargetFramework>
 		<Nullable>enable</Nullable>
-		<Title>ScreenshotOne dotnetsdk</Title>
+		<PackageId>ScreenshotOne.dotnetsdk</PackageId>
 		<Authors>ScreenshotOne</Authors>
-		<Company>ScreenshotOne</Company>
+		<Description>A dotnet SDK for the ScreenshotOne API</Description>
 		<Copyright>ScreenshotOne</Copyright>
+		<ProjectUrl>https://screenshotone.com/</ProjectUrl>
+		<PackageIcon>icon.png</PackageIcon>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<RepositoryUrl>https://github.com/screenshotone/dotnetsdk</RepositoryUrl>
 		<PackageTags>screenshot; api; capture; sdk; screenshotone; </PackageTags>
-		<Description>A dotnet SDK for the ScreenshotOne API</Description>
+		<Title>ScreenshotOne dotnetsdk</Title>
+		<Company>ScreenshotOne</Company>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-		<PackageReadmeFile>README.md</PackageReadmeFile>
 	</PropertyGroup>
 
   <ItemGroup>
@@ -20,6 +23,7 @@
 
   <ItemGroup>
 	  <None Include="README.md" Pack="true" PackagePath="\"/>
+	  <None Include="icon.png" Pack="true" PackagePath="\"/>
   </ItemGroup>
 
 </Project>
