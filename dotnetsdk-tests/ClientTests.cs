@@ -1,10 +1,10 @@
 using System.Net;
 using System.Text;
-using dotnetsdk;
 using FluentAssertions;
 using Moq;
 using Moq.Protected;
-using TimeZone = dotnetsdk.TimeZone;
+using ScreenshotOne.dotnetsdk;
+using TimeZone = ScreenshotOne.dotnetsdk.TimeZone;
 
 namespace dotnetsdk_tests
 {

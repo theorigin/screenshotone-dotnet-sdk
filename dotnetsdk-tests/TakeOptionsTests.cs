@@ -1,6 +1,6 @@
-﻿using dotnetsdk;
-using FluentAssertions;
-using TimeZone = dotnetsdk.TimeZone;
+﻿using FluentAssertions;
+using ScreenshotOne.dotnetsdk;
+using TimeZone = ScreenshotOne.dotnetsdk.TimeZone;
 
 namespace dotnetsdk_tests
 {
