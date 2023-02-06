@@ -7,7 +7,7 @@ using System.Text;
 using System.Text.Encodings.Web;
 using System.Threading.Tasks;
 
-namespace ScreenshotOne.dotnetsdk
+namespace ScreenshotOne
 {
     public class Client
     {

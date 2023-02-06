@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using System.Linq;
 
-namespace ScreenshotOne.dotnetsdk
+namespace ScreenshotOne
 {
     internal static class BoolExtensions
     {
